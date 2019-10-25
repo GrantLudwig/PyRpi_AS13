@@ -6,3 +6,15 @@
 # 10/28/2019
 # AS.13
 # Sort 3 numbers
+
+# Part 1
+SQUARE = 5
+
+print("Part 1")
+print("======")
+for i in range(SQUARE):
+	for j in range(SQUARE):
+		print("*", end=" ")
+	print()
+		
+print()
