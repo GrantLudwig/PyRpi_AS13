@@ -18,3 +18,17 @@ for i in range(SQUARE):
 	print()
 		
 print()
+
+# Part 2
+HEIGHT = 5
+
+print("Part 2")
+print("======")
+for i in range(1, HEIGHT + 1):
+	for j in range(i):
+		print("*", end=" ")
+	print()
+for i in range(HEIGHT - 1, 0, -1):
+	for j in range(i):
+		print("*", end=" ")
+	print()
