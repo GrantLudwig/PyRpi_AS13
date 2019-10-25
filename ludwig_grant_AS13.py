@@ -32,3 +32,35 @@ for i in range(HEIGHT - 1, 0, -1):
 	for j in range(i):
 		print("*", end=" ")
 	print()
+	
+WIDTH = 10
+
+# Part 3
+print("Part 3")
+print("======")
+for i in range(1, WIDTH + 1):
+	for j in range(WIDTH - i):
+		print(" ", end="")
+	for j in range(i):
+		print("*", end=" ")
+	print()
+for i in range(WIDTH - 1, 0, -1):
+	for j in range(WIDTH - i):
+		print(" ", end="")
+	for j in range(i):
+		print("*", end=" ")
+	print()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
