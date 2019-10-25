@@ -5,7 +5,7 @@
 # Grant Ludwig
 # 10/28/2019
 # AS.13
-# Sort 3 numbers
+# Nested Loop Practice
 
 # Part 1
 SQUARE = 5
